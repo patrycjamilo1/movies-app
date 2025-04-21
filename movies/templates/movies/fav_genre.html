@@ -1,0 +1,10 @@
+{% extends 'movies/_base.html'%}
+<html>
+    <body>
+        {% block content%}
+        <h1>My Fav Genres are Romance and Comedy!</h1>
+        {% load static %}
+        <img style="width:300px;"src="{% static 'movies\cats.jpg'%}" alt="Me watching those movies">
+        {% endblock %}
+    </body>
+</html>
